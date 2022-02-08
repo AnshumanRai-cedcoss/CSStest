@@ -1,0 +1,88 @@
+.wrapper {
+  width: 20%;
+  margin-left: 30%;
+  background-color: grey;
+  margin-top: 10%;
+}
+.screen {
+  width: 100%;
+  background-color: black;
+  height: 20vh;
+  margin-right: 2px;
+}
+
+#zeroup {
+  color: white;
+  text-align: end;
+  font-size: 30px;
+  margin-right: 2px;
+}
+#zerop {
+  margin-bottom: 0px;
+}
+.digits {
+  overflow: hidden;
+  height: 100%;
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.r1 {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #414149;
+}
+.c {
+  float: left;
+  width: 19.5%;
+  text-align: right;
+  padding-right: 4.8%;
+  height: 5vh;
+  padding-top: 3%;
+  border-right: 1px solid #000;
+}
+.r2,
+.r3,
+.r4,
+.r5 {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #414149;
+}
+.r2 .c,
+.r3 .c,
+.r4 .c,
+.r5 .c {
+  float: left;
+  width: 19.5%;
+  background-color: #42424a;
+  text-align: right;
+  height: 5vh;
+  padding-top: 3%;
+  font-size: 1.2rem;
+  border-right: 1px solid #000;
+}
+.last {
+  background-color: #e99e26;
+}
+.r2 .last,
+.r3 .last,
+.r4 .last,
+.r5 .last {
+  background-color: #fe9f0b;
+}
+#lzero {
+  width: 45%;
+  padding-right: 4%;
+  text-align: center;
+}
+h3 {
+  color: white;
+}
